@@ -54,6 +54,7 @@ public class Test_Steps01 {
 	@Then("^Registration should be successful$")
 	public void registration_should_be_successful() throws Throwable {
 	 System.out.println("Registration Successful");
+	 driver.close();
 	}
 
 
